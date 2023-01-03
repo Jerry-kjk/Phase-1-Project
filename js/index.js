@@ -11,10 +11,10 @@ document.addEventListener("DOMContentLoaded", function () {
     .then(function (patients) {
 
       patients.map(function (patient) {
-        let patientNum = document.querySelector("#listpatients");
+        let patientName = document.querySelector("#listpatients");
         const patientDisplay = document.createElement("h5");
 
-        patientNum.appendChild(patientDisplay);
+        patientName.appendChild(patientDisplay);
 
         patientDisplay.innerHTML = patient_name;
 
