@@ -33,7 +33,7 @@ npm install -g json-server
 ```
 json-server --watch db.json
 ```
-* To view the server, navigate to http://localhost:3000/quotes
+* To view the server, navigate to http://localhost:3000/patients
 * To run the application, open the `index.html` file on your browser using a suitable code editor ie https://code.visualstudio.com/
 # Technologies Used
 * HTML5
