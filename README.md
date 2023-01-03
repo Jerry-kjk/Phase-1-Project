@@ -1,35 +1,69 @@
-# Security Project
-## Author : Rawllings Kiprop, Date: 15/12/2022
-## Project Description
-The purpose of this project is to come up with a security solution in apartments. I have created a website with a data base which has full information of the tenants living in the same apartment. When someone wants to get into the place, the security personell at the gate will look if he/she is a tenant in the residential home. If a visitor comes, security personell will enter their names and which house they are going into the system for referral.
+# List of patient
+# Author
+## Jérémy KAJIK
+# Description
+The website will help the doctor to have 
+*An electronic notebook
+*Record his patients
+# Setup Requirements
+* Git
+* Github
+* Text editor eg Visual Studio Code
+* Web Browser (Chrome or Firefox)
+* Node.js https://nodejs.org/en/
+* JSON Server https://www.npmjs.com/package/json-server
+# Setup Installation
+* Copy the link of this repository
+```
+git@github.com:Jerry-kjk/Phase-1-Project.git
+```
+* Clone it to your local machine
+```
+git clone https://github.com/Jerry-kjk/Phase-1-Project.git
+```
+* Open terminal and navigate to the directory of the project
+```
+cd Phase-1-Project
+```
+* Run the following command to install the JSON Server
+```
+npm install -g json-server
+```
+* Start the JSON Server
+```
+json-server --watch db.json
+```
+* To view the server, navigate to http://localhost:3000/quotes
+* To run the application, open the `index.html` file on your browser using a suitable code editor ie https://code.visualstudio.com/
+# Technologies Used
+* HTML5
+* CSS3
+* JavaScript
+* Bootstrap 5.2
+# Known Bugs
+There are no known bugs of this project at the moment, according to my knowledge😎...
+# Support and contact details
+For any contributions advices towards this project or other projects:
+* Email: jerrykajik@gmail.com
+* Phone: 0703942636
+# License
+Copyright (c) 2022 Moringa School
 
-SCREENSHOTS
-![Screenshot from 2022-12-16 12-54-14](https://user-images.githubusercontent.com/113606952/208072450-d804d03e-1afd-4d1d-b985-d5c474d39a3a.png)
-![Screenshot from 2022-12-15 18-27-09](https://user-images.githubusercontent.com/113606952/208068602-e021d70d-9ea9-47d9-b455-3117128e6f5e.png)
-## SetUp Instruction
-### Requirements
-[HTML](https://html.com/)
-[CSS](https://www.w3schools.com/css/)
-[JS](https://www.w3schools.com/js/)
-Text editor eg Visual Studio Code
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+"Software"), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
 
-### Getting Files
-* Fork the repo
-- Create a new branch in your terminal (git checkout -b improve-feature)
-- Make appropriate changes in file(s)
-- Run the server to see the changes
-- Add the changes and commit them (git commit -am "Improve App")
-- Push to the branch (git push origin improve-app)
-- Create a Pull request
-- Open the folder location on terminal and use the following command to run app:
-### How To Run It
-Open your HTML file and make sure you have live share installed.
-Click on go live to to view the page on the browser.
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
 
-## Live Link
-Or you can access the web application directly via this [LINK](https://rawllings.github.io/security_check/).
-
-## Contact Information
-Email : rawlligs.ruto@student.moringaschool.com
-## License
-MIT License Copyright (c) YEAR Author
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
